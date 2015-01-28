@@ -32,7 +32,7 @@ setup(name='django-csvimport',
       license='Apache',
       packages=['csvimport', ],
       include_package_data=True,
-      namespace_packages=['csvimport', ],
+      #namespace_packages=['csvimport', ],
       package_data = {
         # If any package contains *.csv or *.rst files, include them: 
         '': ['*.csv', '*.rst'],
